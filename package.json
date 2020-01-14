@@ -1,0 +1,21 @@
+{
+    "name": "seantheme",
+    "displayName": "SeanTheme",
+    "description": "My personal theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "SeanTheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/SeanTheme-color-theme.json"
+            }
+        ]
+    }
+}
